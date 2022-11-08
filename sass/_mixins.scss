@@ -1,0 +1,16 @@
+@media(max-width: 576px) {
+    .grid {
+        display: flex;
+        flex-direction: column
+    }
+
+    [class*=grid__col-] {
+        grid-column: auto
+    }
+}
+@media screen and (-ms-high-contrast:active) {
+    .nsm7Bb-HzV7m-LgbsSe {
+        border: 2px solid windowText;
+        color: windowText
+    }
+}
